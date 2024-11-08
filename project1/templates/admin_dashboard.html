@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="my-4">Welcome, Admin: {{ current_user.username }}</h2>
+
+        <!-- Upload Feedback File Section -->
+        <form method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="file" class="form-label">Upload Feedback Data (CSV, JSON, Excel, XML)</label>
+                <input type="file" class="form-control" id="file" name="file">
+            </div>
+
+        </form>
+
+        <hr>
+
+        <!-- Display Charts -->
+        <h3>Charts</h3>
+        <div class="row">
+            {% for chart in charts %}
+                <div class="col-md-4">
+
+                    <img src="{{chart}}" class="img-fluid" alt="Chart">
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- Logout Button -->
+        <a href="{{ url_for('logout') }}" class="btn btn-danger mt-3">Logout</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[
+    {"customer_id": 6, "feedback": "Excellent customer service.", "source": "social_media"},
+    {"customer_id": 7, "feedback": "Product broke after a week.", "source": "review_site"},
+    {"customer_id": 8, "feedback": "Great value for the price.", "source": "website"}
+]

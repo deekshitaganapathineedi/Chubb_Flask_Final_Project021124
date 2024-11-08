@@ -1,0 +1,39 @@
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div>
+        {{ form.username.label }}: {{ form.username }}
+        {% for error in form.username.errors %}
+            <span class="error">{{ error }}</span>
+        {% endfor %}
+    </div>
+    <br>
+    <br>
+
+    <div>
+        {{ form.password.label }}: {{ form.password }}
+        {% for error in form.password.errors %}
+            <span class="error">{{ error }}</span>
+        {% endfor %}
+    </div>
+    <br>
+    <br>
+    <div>
+        {{ form.confirm_password.label }}: {{ form.confirm_password }}
+        {% for error in form.confirm_password.errors %}
+            <span class="error">{{ error }}</span>
+        {% endfor %}
+    </div>
+    <br>
+    <br>
+    <div>
+        {{ form.role.label }}: {{ form.role }}
+        {% for error in form.role.errors %}
+            <span class="error">{{ error }}</span>
+        {% endfor %}
+    </div>
+    <br>
+    <br>
+    <div>
+        {{ form.submit }}
+    </div>
+</form>

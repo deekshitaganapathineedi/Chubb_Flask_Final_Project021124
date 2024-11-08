@@ -1,0 +1,8 @@
+[
+    {"student_id": 1, "name": "seetha", "subject": "Math", "score": 85, "term": "Fall 2023"},
+    {"student_id": 2, "name": "geetha", "subject": "English", "score": 90, "term": "Fall 2023"},
+    {"student_id": 3, "name": "ram", "subject": "Science", "score": 78, "term": "Fall 2023"},
+    {"student_id": 1, "name": "shyam", "subject": "Math", "score": 88, "term": "Spring 2024"},
+    {"student_id": 2, "name": "sheela", "subject": "English", "score": 92, "term": "Spring 2024"},
+    {"student_id": 3, "name": "rohan ", "subject": "Science", "score": 80, "term": "Spring 2024"}
+]

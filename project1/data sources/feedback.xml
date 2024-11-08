@@ -1,0 +1,12 @@
+<feedbacks>
+    <feedback>
+        <customer_id>9</customer_id>
+        <text>Item was exactly as described. Highly satisfied.</text>
+        <source>survey</source>
+    </feedback>
+    <feedback>
+        <customer_id>10</customer_id>
+        <text>Delivery was on time, good experience overall.</text>
+        <source>website</source>
+    </feedback>
+</feedbacks>

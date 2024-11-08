@@ -1,0 +1,44 @@
+<grades>
+    <grade>
+        <student_id>1</student_id>
+        <name>abc</name>
+        <subject>Math</subject>
+        <score>85</score>
+        <term>Fall 2023</term>
+    </grade>
+    <grade>
+        <student_id>2</student_id>
+        <name>bcd</name>
+        <subject>English</subject>
+        <score>90</score>
+        <term>Fall 2023</term>
+    </grade>
+    <grade>
+        <student_id>3</student_id>
+        <name>efg</name>
+        <subject>Science</subject>
+        <score>78</score>
+        <term>Fall 2023</term>
+    </grade>
+    <grade>
+        <student_id>1</student_id>
+        <name>hij</name>
+        <subject>Math</subject>
+        <score>88</score>
+        <term>Spring 2024</term>
+    </grade>
+    <grade>
+        <student_id>2</student_id>
+        <name>klmh</name>
+        <subject>English</subject>
+        <score>92</score>
+        <term>Spring 2024</term>
+    </grade>
+    <grade>
+        <student_id>3</student_id>
+        <name>pqr</name>
+        <subject>Science</subject>
+        <score>80</score>
+        <term>Spring 2024</term>
+    </grade>
+</grades>

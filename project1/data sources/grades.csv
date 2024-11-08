@@ -1,0 +1,7 @@
+student_id,name,subject,score,term
+1,John Doe,Math,85,Fall 2023
+2,Jane Smith,English,90,Fall 2023
+3,Emily Johnson,Science,78,Fall 2023
+1,John Doe,Math,88,Spring 2024
+2,Jane Smith,English,92,Spring 2024
+3,Emily Johnson,Science,80,Spring 2024
